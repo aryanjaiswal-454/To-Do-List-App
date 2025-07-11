@@ -13,12 +13,21 @@
     background: linear-gradient(135deg, rgba(78, 8, 88, 0.8), rgba(21, 54, 119, 0.8));
     padding: 10px;
 }
-.todo-app{
+/* .todo-app{
     width: 100%;
     max-width: 540px;
     background: #fff;
     margin: 50px auto 40px;
     padding: 40px 30px 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+} */
+.todo-app {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 50px auto;
+    padding: 40px 30px;
     border-radius: 10px;
     box-sizing: border-box;
 }
@@ -122,9 +131,9 @@ ul li span:hover{
 }
 @media (max-width: 600px) {
     .todo-app {
-        width: calc(100% - 20px);
         margin: 20px auto;
         padding: 30px 15px;
+        width: calc(100% - 20px);
         box-sizing: border-box;
     }
 
