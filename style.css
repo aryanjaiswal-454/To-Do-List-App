@@ -142,17 +142,12 @@ ul li span:hover{
     }
     .row button {
         width: 40%;
+        padding: 12px;
+        font-size: 14px;
+        align-self: center;
     }
-
-
-    button {
-        padding: 14px;
-        width: 100%;
-        font-size: 16px;
-    }
-
     #clear-btn {
-        width: 100%;
+        width: 50%;
         font-size: 16px;
         padding: 14px;
     }
