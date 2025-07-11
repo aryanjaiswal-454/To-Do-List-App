@@ -20,6 +20,7 @@
     margin: 50px auto 40px;
     padding: 40px 30px 40px;
     border-radius: 10px;
+    box-sizing: border-box;
 }
 .todo-app h2{
     color: #002765;
@@ -121,8 +122,9 @@ ul li span:hover{
 }
 @media (max-width: 600px) {
     .todo-app {
-        padding: 30px 20px;
-        margin: 20px 10px;
+        width: calc(100% - 20px);
+        margin: 20px auto;
+        padding: 30px 15px;
         box-sizing: border-box;
     }
 
